@@ -8,15 +8,16 @@ const postFormContactme = (event) => {
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
-
-    // Apertar F12 e visualizar no console do navegador as informações coletadas serem exibidas
+    
+    // visualizar a coleta de informações pelo console do navegador
+    // No navegar apertar F12, visualizar na aba console as informações coletadas serem exibidas após clicar no botão que chama essa função
     console.log('Nome:', name);
     console.log('E-mail:', email);
     console.log('Telefone:', phone);
     console.log('Mensagem:', message);
 
     // Limpar os campos do formulário
-    // pega o input pelo "id" e isere o valor ''
+    // pegar os inputs pelos "id" e inserir o valor ''
     document.getElementById('name').value = '';
     document.getElementById('email').value = '';
     document.getElementById('phone').value = '';
