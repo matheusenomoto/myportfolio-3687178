@@ -26,7 +26,7 @@ nav li:last-child {
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  
   transition: background-color 0.3s ease;
 }
 
