@@ -1,3 +1,4 @@
+// simula o tratamento dos dados do form presente em contact.html
 const postFormContactme = (event) => {
     // Evita o envio do formulário de forma padrão
     event.preventDefault(); 
