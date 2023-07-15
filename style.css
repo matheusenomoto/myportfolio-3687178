@@ -119,6 +119,11 @@ button[type="submit"]:hover {
 /* styles do portfolio.html */
 .portfolio-item {
     margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
 }
 
 .portfolio-item h3 {
@@ -131,10 +136,42 @@ button[type="submit"]:hover {
 }
 
 .portfolio-item a {
-    color: #333;
+    color: #007bff;
     text-decoration: none;
 }
-
+  
 .portfolio-item a:hover {
     text-decoration: underline;
 }
+/* styles do background.html */
+.container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .container .section {
+    margin-bottom: 30px;
+  }
+  
+  .container .section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .container strong {
+    font-weight: bold;
+    
+  }
+  
+  .container p:first-child {
+    margin-top: 0;
+  }
+  
+  .container p:last-child {
+    margin-bottom: 0;
+  }
