@@ -175,3 +175,19 @@ button[type="submit"]:hover {
   .container p:last-child {
     margin-bottom: 0;
   }
+  /* styles do about.html */
+
+.container p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.container:last-child {
+    margin-bottom: 0;
+}
+
+.container .img-container img{
+    width: 700px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
