@@ -1,6 +1,7 @@
 body {
-  background-color: #1c1b1a;
-  color: whitesmoke; /* Define a cor do texto para branco */
+    background-color: #1c1b1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
 }
 
 nav {
@@ -31,4 +32,109 @@ nav a {
 
 nav a:hover {
   background-color: #555;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* styles do contact.html */
+.container {
+  text-align: center;
+}
+
+.container img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  background-color: #1c1b1a;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.contact-details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  margin-bottom: 5px;
+}
+
+.contact-details a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+/* styles do portfolio.html */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.portfolio-item p {
+    margin-bottom: 10px;
+}
+
+.portfolio-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
 }
